@@ -1,0 +1,104 @@
+[Root]
+Most Recent Package=eLinkCart Setup
+
+
+[Package|eLinkCart Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\VB Projects\eLinkBB\SetupPackage\Package
+
+[Package|eLinkCart Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|eLinkCart Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|eLinkCart Setup|Files Found]
+
+[Package|eLinkCart Setup|Files Released]
+
+[Package|eLinkCart Setup|Missing Dependency Information]
+C:\VB Projects\eLinkBB\SetupPackage\SHELLLNK.TLB=
+C:\Program Files\Common Files\System\ado\msado21.tlb=
+C:\Program Files\Microsoft SQL Server\80\Tools\Binn\Resources\1033\sqlns.rll=
+C:\Program Files\Microsoft SQL Server\80\Tools\Binn\sqldmo.dll=
+C:\WINDOWS\system32\unzip32.dll=
+
+[Package|eLinkCart Setup|Out-of-Date Dependency Information]
+
+[Package|eLinkCart Setup|Files Added]
+
+[Package|eLinkCart Setup|Files Removed]
+
+[Package|eLinkCart Setup|Files In Project]
+C:\VB Projects\eLinkBB\SetupPackage\Setup.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\unzip32.dll=Yes
+C:\Program Files\Microsoft SQL Server\80\Tools\Binn\sqldmo.dll=Yes
+C:\Program Files\Microsoft SQL Server\80\Tools\Binn\Resources\1033\sqlns.rll=Yes
+C:\Program Files\Common Files\System\ado\msado21.tlb=Yes
+C:\VB Projects\eLinkBB\SetupPackage\SHELLLNK.TLB=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|eLinkCart Setup|Configure Registry Files]
+Applicable=No
+
+[Package|eLinkCart Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|eLinkCart Setup|Install Locations]
+C:\VB Projects\eLinkBB\SetupPackage\Setup.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\unzip32.dll=$(WinSysPath)
+C:\Program Files\Microsoft SQL Server\80\Tools\Binn\sqldmo.dll=$(AppPath)
+C:\Program Files\Microsoft SQL Server\80\Tools\Binn\Resources\1033\sqlns.rll=$(AppPath)
+C:\Program Files\Common Files\System\ado\msado21.tlb=$(WinSysPath)
+C:\VB Projects\eLinkBB\SetupPackage\SHELLLNK.TLB=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|eLinkCart Setup|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft SQL Server\80\Tools\Binn\sqldmo.dll=No
+C:\Program Files\Microsoft SQL Server\80\Tools\Binn\Resources\1033\sqlns.rll=No
+
+[Package|eLinkCart Setup|Distribution]
+Type=single
+Size=
+Title=eLinkCart Setup
+
+[Package|eLinkCart Setup|IconGroups]
+Group0=eLinkCart
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|eLinkCart Setup|eLinkCart]
+Icon1=Setup.exe
+Title1=Setup
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|eLinkCart Setup|Package]
+PackageFolder=C:\VB Projects\eLinkBB\SetupPackage\Package
+ProjectFolder=C:\VB Projects\eLinkBB\SetupPackage
+ServerSideCab=
+File1=C:\VB Projects\eLinkBB\SetupPackage\Package\setup.exe
+File2=C:\VB Projects\eLinkBB\SetupPackage\Package\Setup.Lst
+File3=C:\VB Projects\eLinkBB\SetupPackage\Package\Setup.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
